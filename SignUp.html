@@ -1,0 +1,74 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+   <meta charset="UTF-8">
+   <title>Sign Up</title>
+   <link rel="stylesheet" type="text/css" href="SignUp.css">
+   <meta name="viewport" content="width=device-width, initial-scale=2.0">
+</head>   
+<body> 
+   <div class="con">
+      <h3 style="color: purple;text-align: center;font-family: poppins; font-size: 50px;">Rj's shop</h3><BR>
+       <div class="title" style="text-align: center; font-size: 30px;">REGISTER NOW</div>
+       <form action="#">
+           <div class="user-details">
+               <div class="input-box">
+                   <span class="details">Full Name</span>
+                   <input type="text" placeholder="Enter your full name" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Age</span>
+                   <input type="number" placeholder="Enter your age" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Address</span>
+                   <input type="text" placeholder="Enter your address" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Contact Number</span>
+                   <input type="number" placeholder="Enter your contact number" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Email</span>
+                   <input type="text" placeholder="Enter your email" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Confirm Email</span>
+                   <input type="text" placeholder="Confirm Email" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Password</span>
+                   <input type="Password" name="pass" id="pass" placeholder="Enter your password" required>
+               </div>
+               <div class="input-box">
+                   <span class="details">Confirm Password</span>
+                   <input type="Password" name="pass" id="pass" placeholder="Confirm Password" required>
+               </div>
+           </div>
+           <div class="gender-details">
+                <input type="radio" name="gen" id="dot-1">
+                <input type="radio" name="gen" id="dot-2">
+               <span class="Title">Gender</span>
+               <div class="cat">
+                   <label for="dot-1">
+                       <span class="dot one"></span>
+                       <span class="gender">Male</span>
+                   </label>
+                    <label for="dot-2">
+                       <span class="dot two"></span>
+                       <span class="gender">Female</span>
+                   </label>
+               </div>
+           </div> 
+           <button class="sub" onclick="myFunction()"><a href = "index.html" style="text-decoration: none; color: white;">REGISTER</button></a>
+           
+       </form>
+       <button class="sub"><a href ="index.html" style="text-decoration: none; color: white">GO BACK</button></a>
+   </div>
+   <script>
+function myFunction() {
+  alert("You are now Registered");
+}
+</script>
+</body>
+</html>

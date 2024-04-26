@@ -1,0 +1,67 @@
+body  
+{  
+    margin: 0;  
+    padding: 100px;  
+    background:black;
+    font-family: 'Poppins' sans-serif;  
+}  
+.login{  
+        width: 382px;    
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        border-radius: 15px;
+}
+div.login{
+    background-color:rgba(255,165,0,0.2)
+}
+label{  
+    color: orange;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+.sub{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: orange;
+    color: black; 
+    cursor: pointer;
+    font-family: poppins;
+}
+.sub:hover{
+    background-color: black;
+    color: orange;
+}
+
+span{  
+    color: orange;  
+    font-size: 17px;  
+}  
+a{  
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;  
+}  
+a:hover
+{
+    color:orange
+    ;
+}

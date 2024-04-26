@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.con{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    color: orange;
+}
+div.con{
+    background-color:rgba(255,165,0,0.2)
+}
+.con .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.con .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 20px;
+    background: white;
+}
+.con form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: orange; 
+}
+form .gender-details .Title{
+    font-size: 20px;
+    font-weight: 500;
+}
+form .gender-details .cat{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.gender-details .cat label{
+    display: flex;
+    align-items: center;
+}
+.gender-details .cat .dot{
+    height: 18px;
+    width: 18px;
+    background: orange;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+#dot-1:checked ~ .cat label .one,
+#dot-2:checked ~ .cat label .two{
+    border-color: orange;
+    background: black;
+}
+form input[type="radio"]{
+    display: none;
+}
+
+.sub{
+    width: 90%;
+    margin: 15px 0 0 5%;
+    font-size: 16px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid rgb(17, 67, 107);
+    color: black;
+    font-family: comic sans ms;
+}
+.sub:hover{
+    background-color: black;
+    color: orange;
+}
